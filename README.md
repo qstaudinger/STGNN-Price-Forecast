@@ -6,7 +6,7 @@ This repository contains the code for a research project on **short-term fuel pr
 The goal is to predict local price movements in the German retail gasoline market by explicitly modeling **competition between nearby stations**.
 
 Fuel prices change frequently and in coordinated patterns that reflect local strategic behavior rather than pure cost shocks.  
-Traditional forecasting models—both statistical and deep learning—treat each station as an isolated time series and miss these interactions.  
+Traditional forecasting models, both statistical and deep learning—treat each station as an isolated time series and miss these interactions.  
 This project represents gas stations as **nodes in a spatial graph**, linking them based on proximity so that price reactions can propagate through the network.
 
 The data come from the **German Market Transparency Unit for Fuels (MTS-K)**, observed at 15-minute intervals.  
