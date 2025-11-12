@@ -36,6 +36,7 @@ and evaluates alternative architectures for temporal and spatial encoding.
 ---
 
 ## Requirements & Installation
+## Requirements & Installation
 
 To run the notebooks, ensure you have **Python 3.8+** and **Jupyter Notebook** or **JupyterLab** installed.
 
@@ -43,3 +44,11 @@ Install dependencies via:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn torch torch-geometric networkx tqdm yfinance geopandas shapely jupyterlab
+```
+
+## Notes
+
+- Raw data from Tankerkönig and Yahoo Finance are not included due to size and licensing restrictions.
+- All notebooks are self-contained once data paths are configured.
+- The project is research-oriented and not designed for production deployment.
+
