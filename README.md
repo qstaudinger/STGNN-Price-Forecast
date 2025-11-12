@@ -1,10 +1,45 @@
 # Spatio-Temporal Graph Neural Networks for Price Forecasting: Evidence from Gasoline Markets
-This repository contains the code for a research project on short-term fuel price forecasting using spatio-temporal graph neural networks. The project is motivated by a simple but relevant question: can we predict local price movements in the German retail gasoline market by explicitly modeling competition between nearby stations rather than looking at prices as isolated time series?
 
-Fuel prices in Germany change frequently. They follow patterns that are neither random nor purely driven by cost shocks. Instead, they often reflect strategic interaction in local markets. Existing forecasting models tend to ignore these relational dynamics. Classical time series models fail to consider price reactions between competitors and common deep learning baselines such as LSTMs or TCNs treat each station as an independent sequence. This project takes a different route by using graph neural networks to model spatial dependencies and temporal price evolution jointly.
+## Overview
 
-The graph represents gas stations as nodes and connects them based on geographic proximity. Price changes at one station can therefore influence its neighbors inside a defined radius. The model processes sequences of historical prices and learns how local patterns propagate through the network over time. The objective is short-horizon forecasting on the order of 15 to 60 minutes ahead, where prediction actually matters for consumer decision-making.
+This repository contains the code for a research project on **short-term fuel price forecasting** using **spatio-temporal graph neural networks (STGNNs)**.  
+The goal is to predict local price movements in the German retail gasoline market by explicitly modeling **competition between nearby stations**.
 
-The data is based on mandatory price reports to the German market transparency unit for fuels (Markttransparenzstelle für Kraftstoffe). Prices are observed at 15-minute intervals. Highway stations and night hours are excluded to avoid distortions from non-competitive segments. The focus is on regular gasoline (E5 and E10) and diesel. Due to computational limits, the current setup uses a geographically restricted subsample with a few hundred stations.
+Fuel prices change frequently and in coordinated patterns that reflect local strategic behavior rather than pure cost shocks.  
+Traditional forecasting models—both statistical and deep learning—treat each station as an isolated time series and miss these interactions.  
+This project represents gas stations as **nodes in a spatial graph**, linking them based on proximity so that price reactions can propagate through the network.
 
-This repository is part of an academic study. It explores whether spatio-temporal graph neural networks provide a systematic improvement over conventional forecasting approaches in a market where strategic interactions matter. Beyond pure predictive accuracy, the project is also interested in whether such models capture dynamic price cycles that are commonly associated with Edgeworth competition.
+The data come from the **German Market Transparency Unit for Fuels (MTS-K)**, observed at 15-minute intervals.  
+Highway stations and night hours are excluded to avoid distortions.  
+The analysis focuses on **E5, E10, and diesel**, using a geographically restricted subsample from **Thuringia**.
+
+---
+
+## Repository Structure
+
+### 01_Data_Pipeline.ipynb
+Builds a robust data pipeline integrating fuel price data from **Tankerkönig** and oil price series via **yfinance**.  
+Performs validation, cleaning, and standardization, then exports reproducible datasets and prepares a **Thuringia sample**.
+
+### 02_Summary.ipynb
+Provides an **exploratory overview** of the cleaned data.  
+Summarizes key price dynamics, validates data quality, and ensures representativeness before modeling.
+
+### 03_GNN_Edge_Construction.ipynb
+Constructs **graph structures** capturing spatial and relational dependencies.  
+Defines edges based on distance, brand, and price correlation, forming the basis for STGNN experiments.
+
+### 04_STGNN_Draft.ipynb
+Implements a preliminary **spatio-temporal graph neural network** for short-term forecasting  
+and evaluates alternative architectures for temporal and spatial encoding.
+
+---
+
+## Requirements & Installation
+
+To run the notebooks, ensure you have **Python 3.8+** and **Jupyter Notebook** or **JupyterLab** installed.
+
+Install dependencies via:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn torch torch-geometric networkx tqdm yfinance geopandas shapely jupyterlab
