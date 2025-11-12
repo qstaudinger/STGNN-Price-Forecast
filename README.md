@@ -26,8 +26,9 @@ Provides an **exploratory overview** of the cleaned data.
 Summarizes key price dynamics, validates data quality, and ensures representativeness before modeling.
 
 ### 03_GNN_Edge_Construction.ipynb
-Constructs **graph structures** capturing spatial and relational dependencies.  
-Defines edges based on distance, brand, and price correlation, forming the basis for STGNN experiments.
+Constructs **graph structures** capturing spatial and relational dependencies.
+Defines edges based on distance, brand, and price correlation, and tests multiple variants of **graph construction** to compare how different definitions of station relationships affect downstream STGNN performance.
+The resulting graphs form the basis for subsequent experiments.
 
 ### 04_STGNN_Draft.ipynb
 Implements a preliminary **spatio-temporal graph neural network** for short-term forecasting  
