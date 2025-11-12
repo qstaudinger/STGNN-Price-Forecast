@@ -37,7 +37,6 @@ and evaluates alternative architectures for temporal and spatial encoding.
 ---
 
 ## Requirements & Installation
-## Requirements & Installation
 
 To run the notebooks, ensure you have **Python 3.8+** and **Jupyter Notebook** or **JupyterLab** installed.
 
