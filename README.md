@@ -30,7 +30,7 @@ Constructs **graph structures** capturing spatial and relational dependencies.
 Defines edges based on distance, brand, and price correlation, and tests multiple variants of **graph construction** to compare how different definitions of station relationships affect downstream STGNN performance.
 The resulting graphs form the basis for subsequent experiments.
 
-### 04_STGNN_Draft.ipynb
+### 04_STGNN_Baseline.ipynb
 Implements a preliminary **spatio-temporal graph neural network** for short-term forecasting  
 and evaluates alternative architectures for temporal and spatial encoding.
 
