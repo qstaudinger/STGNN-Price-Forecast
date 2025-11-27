@@ -30,9 +30,14 @@ Constructs **graph structures** capturing spatial and relational dependencies.
 Defines edges based on distance, brand, and price correlation, and tests multiple variants of **graph construction** to compare how different definitions of station relationships affect downstream STGNN performance.
 The resulting graphs form the basis for subsequent experiments.
 
-### 04_STGNN_Baseline.ipynb
-Implements a preliminary **spatio-temporal graph neural network** for short-term forecasting  
-and evaluates alternative architectures for temporal and spatial encoding.
+### 04_STGNN_Sequential.ipynb
+Implements a preliminary **spatio-temporal graph neural network** for short-term forecasting and evaluates alternative architectures for temporal and spatial encoding.
+
+### 05_STGNN_Integrated.ipynb
+Combines spatial and temporal components within a single architecture. This notebook shows how both streams can be merged into an integrated STGNN and compares its behavior to models that keep spatial and temporal encoding separate.
+
+### 06_STGNN_Stacked.ipynb
+Tests a stacked version of the model. Several spatio-temporal blocks are placed on top of each other to see whether added depth improves short-term forecasting or simply increases computation.
 
 ---
 
