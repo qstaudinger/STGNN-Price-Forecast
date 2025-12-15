@@ -1,0 +1,22 @@
+Current working directory: /home/qusta100
+[RandomSearch] Trial 1/20: score=0.0312, best=0.0312
+[RandomSearch] Trial 2/20: score=0.0299, best=0.0299
+[RandomSearch] Trial 3/20: score=0.0246, best=0.0246
+[RandomSearch] Trial 4/20: score=0.0310, best=0.0246
+[RandomSearch] Trial 5/20: score=0.0315, best=0.0246
+[RandomSearch] Trial 6/20: score=0.0306, best=0.0246
+[RandomSearch] Trial 7/20: score=0.0363, best=0.0246
+[RandomSearch] Trial 8/20: score=0.0315, best=0.0246
+[RandomSearch] Trial 9/20: score=0.0287, best=0.0246
+[RandomSearch] Trial 10/20: score=0.0309, best=0.0246
+[RandomSearch] Trial 11/20: score=0.0299, best=0.0246
+[RandomSearch] Trial 12/20: score=0.0319, best=0.0246
+[RandomSearch] Trial 13/20: score=0.0306, best=0.0246
+[RandomSearch] Trial 14/20: score=0.0326, best=0.0246
+[RandomSearch] Trial 15/20: score=0.0317, best=0.0246
+[RandomSearch] Trial 16/20: score=0.0355, best=0.0246
+[RandomSearch] Trial 17/20: score=0.0311, best=0.0246
+[RandomSearch] Trial 18/20: score=0.0320, best=0.0246
+[RandomSearch] Trial 19/20: score=0.0539, best=0.0246
+[RandomSearch] Trial 20/20: score=0.0332, best=0.0246
+{'lr': 0.0012413879512247906, 'weight_decay': 0.00029395769940595315, 'embed_dim': 32, 'hidden_dim': 64, 'temp_hidden_dim': 32, 'temp_out_per_scale': 16, 'win_hour': 8, 'win_day': 64, 'win_week': 192, 'cheb_K': 2} 0.024599271763517744
