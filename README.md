@@ -47,11 +47,15 @@ The repository follows the full empirical workflow from raw data to final result
 
 04_Results/
 ├── 01_Temporary/              Intermediate results and logs
-│   ├── 04_Models/
-│   ├── 05_Experiments/
-│   └── 06_Performance_Comparison/
-├── 02_Tables/                 Final result tables
-└── 05_Metrics/                Aggregated performance metrics
+│   ├── 01_Logs/
+│   ├── 02_Trial_Results/
+│   ├── 03_Outputs/
+│   ├── 04_Models/             Stored Models
+│   └── 05_Metrics/            Aggregated performance metrics
+└── 02_Tables/                 Final result tables
+
+
+# └── 05_Metrics/                Aggregated performance metrics
 
 05_PBS/
 ├── 01_SH/                     Shell scripts for cluster execution
