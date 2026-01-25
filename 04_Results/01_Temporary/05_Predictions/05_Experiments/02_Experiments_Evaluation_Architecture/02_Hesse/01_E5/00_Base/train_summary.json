@@ -1,0 +1,196 @@
+{
+  "mode": "train",
+  "seeds": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "hyperparams": {
+    "attn_heads": 4,
+    "cheb_K": 4,
+    "cheb_layers": 3,
+    "embed_dim": 16,
+    "hidden_dim": 64,
+    "length_encoder": 12,
+    "lr": 0.00010131111228515789,
+    "temp_hidden_dim": 128,
+    "temp_out_per_scale_day": 64,
+    "temp_out_per_scale_week": 128,
+    "temporal_attn_layers": 4,
+    "weight_decay": 0.000750342583718194,
+    "win_day": 96,
+    "win_hour": 6,
+    "win_week": 96
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "val_agg_mae": 0.014293159963375083,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.012612857444733084,
+            "RMSE": 0.017406766375148482,
+            "MAPE": 0.007175672920244466
+          },
+          "2": {
+            "MAE": 0.014404874515533706,
+            "RMSE": 0.019437071931194053,
+            "MAPE": 0.00823003647650583
+          },
+          "4": {
+            "MAE": 0.015861748071886873,
+            "RMSE": 0.021130436343785315,
+            "MAPE": 0.00904954915900063
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.012583654449686529,
+            "RMSE": 0.017139567691533023,
+            "MAPE": 0.007179664065495974
+          },
+          "2": {
+            "MAE": 0.014686370071056923,
+            "RMSE": 0.019447619918915082,
+            "MAPE": 0.008415718809093161
+          },
+          "4": {
+            "MAE": 0.015913812868758998,
+            "RMSE": 0.020956237093601494,
+            "MAPE": 0.009095916531623154
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/model_seed42.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/preds_test_seed42.pt"
+    },
+    {
+      "seed": 43,
+      "val_agg_mae": 0.02126763704663917,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.02090363364386265,
+            "RMSE": 0.026884074869402193,
+            "MAPE": 0.011854521810361094
+          },
+          "2": {
+            "MAE": 0.021630947461796918,
+            "RMSE": 0.028229538320264595,
+            "MAPE": 0.012245689737988424
+          },
+          "4": {
+            "MAE": 0.021268330630777287,
+            "RMSE": 0.028558016312813628,
+            "MAPE": 0.01200264154067249
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.02059274317668092,
+            "RMSE": 0.026327384567112665,
+            "MAPE": 0.01172775737380581
+          },
+          "2": {
+            "MAE": 0.02096592509284895,
+            "RMSE": 0.027203137230401245,
+            "MAPE": 0.011908184919729515
+          },
+          "4": {
+            "MAE": 0.02043761240448235,
+            "RMSE": 0.027076400898105715,
+            "MAPE": 0.011584512022300012
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/model_seed43.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/preds_test_seed43.pt"
+    },
+    {
+      "seed": 44,
+      "val_agg_mae": 0.015159637996283814,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.013937008797711007,
+            "RMSE": 0.018646899822797054,
+            "MAPE": 0.007964225364334295
+          },
+          "2": {
+            "MAE": 0.015322627006176074,
+            "RMSE": 0.02042479213800658,
+            "MAPE": 0.008701268898147242
+          },
+          "4": {
+            "MAE": 0.016219278053265285,
+            "RMSE": 0.021634858581042332,
+            "MAPE": 0.009215675595705278
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.014241009904708809,
+            "RMSE": 0.018854573500291363,
+            "MAPE": 0.008167417666918045
+          },
+          "2": {
+            "MAE": 0.014960198463709893,
+            "RMSE": 0.01997139635991337,
+            "MAPE": 0.008514569866751233
+          },
+          "4": {
+            "MAE": 0.01592529662453725,
+            "RMSE": 0.02121657670881779,
+            "MAPE": 0.009072423579117792
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/model_seed44.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/preds_test_seed44.pt"
+    },
+    {
+      "seed": 45,
+      "val_agg_mae": 0.015707525765403876,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.014993217393126106,
+            "RMSE": 0.01996246514903664,
+            "MAPE": 0.008469039218796
+          },
+          "2": {
+            "MAE": 0.014913307503819036,
+            "RMSE": 0.020396865971910642,
+            "MAPE": 0.008458193407166477
+          },
+          "4": {
+            "MAE": 0.017216052798237215,
+            "RMSE": 0.022746195671437642,
+            "MAPE": 0.009745928021201536
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.014550348266047071,
+            "RMSE": 0.019395686478904408,
+            "MAPE": 0.008235286728808513
+          },
+          "2": {
+            "MAE": 0.014850384885682053,
+            "RMSE": 0.020112607744952847,
+            "MAPE": 0.008449384343481563
+          },
+          "4": {
+            "MAE": 0.01697322856454545,
+            "RMSE": 0.0223474778251982,
+            "MAPE": 0.009633352199759687
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/model_seed45.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/preds_test_seed45.pt"
+    }
+  ]
+}

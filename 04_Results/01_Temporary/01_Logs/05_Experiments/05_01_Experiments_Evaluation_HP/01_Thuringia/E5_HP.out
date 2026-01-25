@@ -1,0 +1,51 @@
+Current working directory: /home/qusta100
+Setup geladen von: /home/qusta100/STGNN/02_Code/Setup.py
+Python: /gpfs/project/qusta100/pytorchgpu/bin/python
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/02_WindowSize_Day/16
+Current working directory: /home/qusta100
+Setup geladen von: /home/qusta100/STGNN/02_Code/Setup.py
+Python: /gpfs/project/qusta100/pytorchgpu/bin/python
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/02_WindowSize_Day/32
+Current working directory: /home/qusta100
+Setup geladen von: /home/qusta100/STGNN/02_Code/Setup.py
+Python: /gpfs/project/qusta100/pytorchgpu/bin/python
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/02_WindowSize_Day/64
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/02_WindowSize_Day/96
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/03_WindowSize_Week/096
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/03_WindowSize_Week/192
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/03_WindowSize_Week/288
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/03_WindowSize_Week/480
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/03_WindowSize_Week/672
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/04_Chebyshev_FilterSize/1
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/04_Chebyshev_FilterSize/2
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/04_Chebyshev_FilterSize/3
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/04_Chebyshev_FilterSize/4
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/04_Chebyshev_FilterSize/5
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/05_GCN_Layers/1
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/05_GCN_Layers/2
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/05_GCN_Layers/3
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/05_GCN_Layers/4
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/05_GCN_Layers/5
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/05_GCN_Layers/6
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/06_Attentional_Heads/2
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/06_Attentional_Heads/4
+Current working directory: /home/qusta100

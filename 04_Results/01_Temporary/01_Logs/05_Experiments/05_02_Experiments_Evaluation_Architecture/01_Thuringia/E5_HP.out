@@ -1,0 +1,18 @@
+Current working directory: /home/qusta100
+Setup geladen von: /home/qusta100/STGNN/02_Code/Setup.py
+Python: /gpfs/project/qusta100/pytorchgpu/bin/python
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/02_Experiments_Evaluation_Architecture/01_Thuringia/01_E5/01_use_temp_day
+Current working directory: /home/qusta100
+Setup geladen von: /home/qusta100/STGNN/02_Code/Setup.py
+Python: /gpfs/project/qusta100/pytorchgpu/bin/python
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/02_Experiments_Evaluation_Architecture/01_Thuringia/01_E5/02_use_temp_week
+Current working directory: /home/qusta100
+Setup geladen von: /home/qusta100/STGNN/02_Code/Setup.py
+Python: /gpfs/project/qusta100/pytorchgpu/bin/python
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/02_Experiments_Evaluation_Architecture/01_Thuringia/01_E5/03_use_temp_day_week
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/02_Experiments_Evaluation_Architecture/01_Thuringia/01_E5/04_use_spatial
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/02_Experiments_Evaluation_Architecture/01_Thuringia/01_E5/05_use_attention
+Current working directory: /home/qusta100
+train done. saved to /home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/02_Experiments_Evaluation_Architecture/01_Thuringia/01_E5/06_use_time

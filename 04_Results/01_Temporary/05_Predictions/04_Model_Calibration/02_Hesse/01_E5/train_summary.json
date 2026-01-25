@@ -1,0 +1,196 @@
+{
+  "mode": "train",
+  "seeds": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "hyperparams": {
+    "attn_heads": 4,
+    "cheb_K": 4,
+    "cheb_layers": 3,
+    "embed_dim": 16,
+    "hidden_dim": 64,
+    "length_encoder": 12,
+    "lr": 0.00010131111228515789,
+    "temp_hidden_dim": 128,
+    "temp_out_per_scale_day": 64,
+    "temp_out_per_scale_week": 128,
+    "temporal_attn_layers": 4,
+    "weight_decay": 0.000750342583718194,
+    "win_day": 96,
+    "win_hour": 6,
+    "win_week": 96
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "val_agg_mae": 0.02030124850587665,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.019608496235497454,
+            "RMSE": 0.025590043705649,
+            "MAPE": 0.01116072898860635
+          },
+          "2": {
+            "MAE": 0.020506162122085045,
+            "RMSE": 0.026960674463996533,
+            "MAPE": 0.011652512314548101
+          },
+          "4": {
+            "MAE": 0.020789086726215204,
+            "RMSE": 0.026762531018834978,
+            "MAPE": 0.011812364165760404
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.019517136590137873,
+            "RMSE": 0.025322264427200807,
+            "MAPE": 0.011146826193031116
+          },
+          "2": {
+            "MAE": 0.01993762145288711,
+            "RMSE": 0.02612574143839551,
+            "MAPE": 0.011359149348666744
+          },
+          "4": {
+            "MAE": 0.02058143980514205,
+            "RMSE": 0.026312111752721072,
+            "MAPE": 0.0117428667855369
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/model_seed42.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/preds_test_seed42.pt"
+    },
+    {
+      "seed": 43,
+      "val_agg_mae": 0.01426576541210287,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.012242774051530667,
+            "RMSE": 0.017291144155036173,
+            "MAPE": 0.006951266837330452
+          },
+          "2": {
+            "MAE": 0.014081450576359136,
+            "RMSE": 0.019387939509872713,
+            "MAPE": 0.00804376703658609
+          },
+          "4": {
+            "MAE": 0.01647307167943302,
+            "RMSE": 0.02207153566806914,
+            "MAPE": 0.00942402404009144
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.012391905228501598,
+            "RMSE": 0.017247664077460926,
+            "MAPE": 0.007044566543972929
+          },
+          "2": {
+            "MAE": 0.014441392630710304,
+            "RMSE": 0.01955386308378075,
+            "MAPE": 0.00826133158677016
+          },
+          "4": {
+            "MAE": 0.01685965760865607,
+            "RMSE": 0.02225575460456188,
+            "MAPE": 0.009665117416546047
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/model_seed43.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/preds_test_seed43.pt"
+    },
+    {
+      "seed": 44,
+      "val_agg_mae": 0.016318651688980765,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.014201445862126617,
+            "RMSE": 0.019356709519342874,
+            "MAPE": 0.008059747539805219
+          },
+          "2": {
+            "MAE": 0.0163592985351661,
+            "RMSE": 0.02173206575958334,
+            "MAPE": 0.009270694673024412
+          },
+          "4": {
+            "MAE": 0.01839521101051777,
+            "RMSE": 0.023905508651056263,
+            "MAPE": 0.010495830622314253
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.013741757407515817,
+            "RMSE": 0.01877642700019436,
+            "MAPE": 0.007816067985931366
+          },
+          "2": {
+            "MAE": 0.015676601423603,
+            "RMSE": 0.020977877178733777,
+            "MAPE": 0.008897221766165916
+          },
+          "4": {
+            "MAE": 0.018299662696131275,
+            "RMSE": 0.023625341646035587,
+            "MAPE": 0.010470107082004862
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/model_seed44.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/preds_test_seed44.pt"
+    },
+    {
+      "seed": 45,
+      "val_agg_mae": 0.03029960952513075,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.029578985557947326,
+            "RMSE": 0.04140090600320778,
+            "MAPE": 0.016649885656144767
+          },
+          "2": {
+            "MAE": 0.02840414494165894,
+            "RMSE": 0.03944393834585774,
+            "MAPE": 0.01603382984132424
+          },
+          "4": {
+            "MAE": 0.032915698073203645,
+            "RMSE": 0.040504533527951636,
+            "MAPE": 0.018811144565643558
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.027797747615143236,
+            "RMSE": 0.0382357206885349,
+            "MAPE": 0.015726330987529746
+          },
+          "2": {
+            "MAE": 0.027116011826919133,
+            "RMSE": 0.036802846565497566,
+            "MAPE": 0.015386287238585303
+          },
+          "4": {
+            "MAE": 0.033565193303991415,
+            "RMSE": 0.04066232798411207,
+            "MAPE": 0.019277777478332953
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/model_seed45.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/02_Hesse/01_E5/preds_test_seed45.pt"
+    }
+  ]
+}

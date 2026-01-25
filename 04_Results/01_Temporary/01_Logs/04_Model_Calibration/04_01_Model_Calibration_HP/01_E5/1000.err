@@ -1,8 +1,0 @@
-[NbConvertApp] Converting notebook STGNN/02_Notebooks/04_Model_Calibration/04_01_Model_Calibration_HP.ipynb to script
-[NbConvertApp] Writing 30501 bytes to STGNN/05_PBS/02_Python/04_Model_Calibration/04_01_Model_Calibration_HP.py
-/home/qusta100/STGNN/05_PBS/02_Python/04_Model_Calibration/04_01_Model_Calibration_HP.py:969: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
-  blob = torch.load(args.data_path)
-/home/qusta100/STGNN/05_PBS/02_Python/04_Model_Calibration/04_01_Model_Calibration_HP.py:881: RuntimeWarning: Degrees of freedom <= 0 for slice
-  metrics_stats[split_key][h][metric + "_var"] = float(values.var(ddof=1))
-/gpfs/project/qusta100/pytorchgpu/lib/python3.10/site-packages/numpy/_core/_methods.py:215: RuntimeWarning: invalid value encountered in scalar divide
-  ret = ret.dtype.type(ret / rcount)

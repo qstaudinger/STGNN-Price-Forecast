@@ -1,0 +1,67 @@
+{
+  "mode": "train",
+  "seeds": [
+    42
+  ],
+  "hyperparams": {
+    "attn_heads": 4,
+    "cheb_K": 4,
+    "cheb_layers": 3,
+    "embed_dim": 16,
+    "hidden_dim": 64,
+    "length_encoder": 12,
+    "lr": 0.00010131111228515789,
+    "temp_hidden_dim": 128,
+    "temp_out_per_scale_day": 64,
+    "temp_out_per_scale_week": 128,
+    "temporal_attn_layers": 4,
+    "weight_decay": 0.000750342583718194,
+    "win_day": 96,
+    "win_hour": 8,
+    "win_week": 96
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "val_agg_mae": 0.03182402300472465,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.03371666142447533,
+            "RMSE": 0.047645998841809874,
+            "MAPE": 0.01900187370760879
+          },
+          "2": {
+            "MAE": 0.031054073376093658,
+            "RMSE": 0.04205429958499557,
+            "MAPE": 0.01762992775758444
+          },
+          "4": {
+            "MAE": 0.030701333899007175,
+            "RMSE": 0.04039110378517914,
+            "MAPE": 0.017508361038876905
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.03161282969913229,
+            "RMSE": 0.04400536339999295,
+            "MAPE": 0.017911564766201787
+          },
+          "2": {
+            "MAE": 0.02973267722354448,
+            "RMSE": 0.03970596821021065,
+            "MAPE": 0.016981472851877538
+          },
+          "4": {
+            "MAE": 0.03003879132011277,
+            "RMSE": 0.03878278741762459,
+            "MAPE": 0.017243462605325867
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/01_WindowSize_Spatial/08/model_seed42.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/05_Experiments/01_Experiments_Evaluation_HP/01_Thuringia/01_E5/01_WindowSize_Spatial/08/preds_test_seed42.pt"
+    }
+  ]
+}

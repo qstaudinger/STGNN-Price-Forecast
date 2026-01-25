@@ -1,6 +1,0 @@
-Current working directory: /home/qusta100
-cuda available: True
-CUDA_VISIBLE_DEVICES: GPU-26d5d2a6-1a20-3dbc-2e2c-bcbbf88d551c
-device count: 1
-device name: NVIDIA GeForce GTX 1080 Ti
-trial=1000 score=0.02867031932258506

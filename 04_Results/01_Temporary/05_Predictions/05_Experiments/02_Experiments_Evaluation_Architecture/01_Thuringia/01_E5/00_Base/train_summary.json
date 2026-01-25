@@ -1,0 +1,196 @@
+{
+  "mode": "train",
+  "seeds": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "hyperparams": {
+    "attn_heads": 4,
+    "cheb_K": 4,
+    "cheb_layers": 3,
+    "embed_dim": 16,
+    "hidden_dim": 64,
+    "length_encoder": 12,
+    "lr": 0.00010131111228515789,
+    "temp_hidden_dim": 128,
+    "temp_out_per_scale_day": 64,
+    "temp_out_per_scale_week": 128,
+    "temporal_attn_layers": 4,
+    "weight_decay": 0.000750342583718194,
+    "win_day": 96,
+    "win_hour": 6,
+    "win_week": 96
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "val_agg_mae": 0.02357961360574351,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.02394600706983497,
+            "RMSE": 0.033002890775041004,
+            "MAPE": 0.01360982446452287
+          },
+          "2": {
+            "MAE": 0.02310437298132292,
+            "RMSE": 0.03174464600498492,
+            "MAPE": 0.013167097094530384
+          },
+          "4": {
+            "MAE": 0.023688460995971015,
+            "RMSE": 0.0323148552917406,
+            "MAPE": 0.013488446942407166
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.023717177903929756,
+            "RMSE": 0.03176619854266104,
+            "MAPE": 0.013551852350631586
+          },
+          "2": {
+            "MAE": 0.023104039484485663,
+            "RMSE": 0.030747823988886553,
+            "MAPE": 0.013238232968213234
+          },
+          "4": {
+            "MAE": 0.02337011898430963,
+            "RMSE": 0.03096205287189488,
+            "MAPE": 0.013378236980226197
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/01_Thuringia/01_E5/model_seed42.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/01_Thuringia/01_E5/preds_test_seed42.pt"
+    },
+    {
+      "seed": 43,
+      "val_agg_mae": 0.02299663426717956,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.023332944856540014,
+            "RMSE": 0.03206729046138003,
+            "MAPE": 0.013321206296716173
+          },
+          "2": {
+            "MAE": 0.02295203570506019,
+            "RMSE": 0.031212635568140173,
+            "MAPE": 0.013136615572754794
+          },
+          "4": {
+            "MAE": 0.022704922476352203,
+            "RMSE": 0.030919480676881342,
+            "MAPE": 0.012995242141747103
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.023552176813079483,
+            "RMSE": 0.03152137686889859,
+            "MAPE": 0.013504369144135235
+          },
+          "2": {
+            "MAE": 0.02350907923364891,
+            "RMSE": 0.03111354885111435,
+            "MAPE": 0.013520255370983926
+          },
+          "4": {
+            "MAE": 0.0229680422680972,
+            "RMSE": 0.030374685004236287,
+            "MAPE": 0.013211253208684567
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/01_Thuringia/01_E5/model_seed43.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/01_Thuringia/01_E5/preds_test_seed43.pt"
+    },
+    {
+      "seed": 44,
+      "val_agg_mae": 0.025128768112204675,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.025879645708358823,
+            "RMSE": 0.03386321577007157,
+            "MAPE": 0.014814164681390215
+          },
+          "2": {
+            "MAE": 0.023920568737090583,
+            "RMSE": 0.031977449904715335,
+            "MAPE": 0.013688897421424854
+          },
+          "4": {
+            "MAE": 0.025586089100016366,
+            "RMSE": 0.03383384409349751,
+            "MAPE": 0.014573232793654967
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.02657822895467825,
+            "RMSE": 0.03419580304832444,
+            "MAPE": 0.015283038564280312
+          },
+          "2": {
+            "MAE": 0.024171103316033282,
+            "RMSE": 0.031661980847752,
+            "MAPE": 0.01390484268354557
+          },
+          "4": {
+            "MAE": 0.025095024148375153,
+            "RMSE": 0.032634147433356006,
+            "MAPE": 0.014358807560834413
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/01_Thuringia/01_E5/model_seed44.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/01_Thuringia/01_E5/preds_test_seed44.pt"
+    },
+    {
+      "seed": 45,
+      "val_agg_mae": 0.026020295559818718,
+      "metrics": {
+        "val_per_h": {
+          "1": {
+            "MAE": 0.026778731000296197,
+            "RMSE": 0.035413477224262226,
+            "MAPE": 0.01528180060472325
+          },
+          "2": {
+            "MAE": 0.026594720971713975,
+            "RMSE": 0.034602755158660854,
+            "MAPE": 0.015244948311761666
+          },
+          "4": {
+            "MAE": 0.024687435915575914,
+            "RMSE": 0.03349588652679985,
+            "MAPE": 0.014086907338484372
+          }
+        },
+        "test_per_h": {
+          "1": {
+            "MAE": 0.026699437460702483,
+            "RMSE": 0.034965615548214306,
+            "MAPE": 0.015292483752578197
+          },
+          "2": {
+            "MAE": 0.027049696182924226,
+            "RMSE": 0.03463260190534319,
+            "MAPE": 0.015601190056542737
+          },
+          "4": {
+            "MAE": 0.02422225486220675,
+            "RMSE": 0.032021925592734354,
+            "MAPE": 0.013889631067782255
+          }
+        }
+      },
+      "model_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/01_Thuringia/01_E5/model_seed45.pt",
+      "preds_path": "/home/qusta100/STGNN/04_Results/01_Temporary/05_Predictions/04_Model_Calibration/01_Thuringia/01_E5/preds_test_seed45.pt"
+    }
+  ]
+}
