@@ -82,7 +82,6 @@ Install dependencies via:
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn torch networkx tqdm yfinance geopandas shapely jupyterlab lightgbm statsmodels joblib
 ```
-Environment
 
 All models are implemented in Python 3.10 and trained on a compute cluster.
 
