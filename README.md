@@ -82,4 +82,8 @@ Install dependencies via:
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn torch networkx tqdm yfinance geopandas shapely jupyterlab lightgbm statsmodels joblib
 ```
+Environment
 
+All models are implemented in Python 3.10 and trained on a compute cluster.
+
+The STGNN model is implemented in PyTorch 2.5.1 and trained on a single NVIDIA GeForce GTX 1080 Ti (11 GB VRAM) using 4 CPU cores per run. Baseline models are trained on CPU only using their respective libraries.
