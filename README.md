@@ -140,18 +140,23 @@ docker run -t -i -p 5000:5000 -v "$PWD:/data" osrm/osrm-backend \
 ````
 
 1. Data Processing
+
 1.1 Raw Data Processing (Notebook, CPU)
+
 01_01_Data_Processing.ipynb
 
 Note: Requires very high memory (up to ~500 GB RAM).
 
 1.2 Routing + OSRM Integration
+
 01_02_OSRM_Processing.ipynb
 
 This step is handled within the notebook:
 
 Export routing inputs for OSRM
+
 Run OSRM and the routing script externally
+
 Import results back into the notebook
 
 The exact procedure is documented inside the notebook.
@@ -175,6 +180,7 @@ Routing script:
 
 
 03_01_Window_Building_Dist.ipynb
+
 03_02_Window_Building_Time.ipynb
 
 
