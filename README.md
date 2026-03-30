@@ -88,6 +88,20 @@ All models are implemented in Python 3.10 and trained on a compute cluster.
 The STGNN model is implemented in PyTorch 2.5.1 and trained on a single NVIDIA GeForce GTX 1080 Ti (11 GB VRAM) using 4 CPU cores per run. Baseline models are trained on CPU only using their respective libraries.
 
 
+### OSRM Server Setup (Routing)
+
+Routing requires a locally running OSRM server (Linux only, not supported on HPC systems).
+
+1. Download OpenStreetMap data for Germany (`.osm.pbf`)
+2. Preprocess it using OSRM
+3. Start the server:
+
+```bash
+docker run -t -i -p 5000:5000 -v "$PWD:/data" osrm/osrm-backend \
+  osrm-routed --algorithm mld /data/germany.osrm
+````
+
+
 
 
 
@@ -126,28 +140,16 @@ In `/02_Code/Setup.py`, define all relevant paths:
 
 ---
 
-### OSRM Server Setup (Routing)
 
-Routing requires a locally running OSRM server (Linux only, not supported on HPC systems).
+## 1. Data Processing
 
-1. Download OpenStreetMap data for Germany (`.osm.pbf`)
-2. Preprocess it using OSRM
-3. Start the server:
-
-```bash
-docker run -t -i -p 5000:5000 -v "$PWD:/data" osrm/osrm-backend \
-  osrm-routed --algorithm mld /data/germany.osrm
-````
-
-1. Data Processing
-
-1.1 Raw Data Processing (Notebook, CPU)
+### 1.1 Raw Data Processing (Notebook, CPU)
 
 01_01_Data_Processing.ipynb
 
 Note: Requires very high memory (up to ~500 GB RAM).
 
-1.2 Routing + OSRM Integration
+### 1.2 Routing + OSRM Integration
 
 01_02_OSRM_Processing.ipynb
 
