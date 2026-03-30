@@ -137,6 +137,7 @@ Routing requires a locally running OSRM server (Linux only, not supported on HPC
 ```bash
 docker run -t -i -p 5000:5000 -v "$PWD:/data" osrm/osrm-backend \
   osrm-routed --algorithm mld /data/germany.osrm
+````
 1. Data Processing
 1.1 Raw Data Processing (Notebook, CPU)
 01_01_Data_Processing.ipynb
