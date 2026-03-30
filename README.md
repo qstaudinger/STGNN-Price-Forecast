@@ -188,7 +188,7 @@ Routing script:
 
 ## 4. Model Calibration
 
-All model implementations (including STGNN) are defined in `/02_Code` and are executed via shell scripts.
+All model implementations are defined in `/02_Code` and are executed via shell scripts.
 
 ### 4.1 Hyperparameter Tuning (Shell)
 
