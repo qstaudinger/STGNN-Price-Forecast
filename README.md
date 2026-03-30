@@ -6,8 +6,7 @@ This repository contains the code for a research project on short-term fuel pric
 The goal is to predict local price movements in the German retail gasoline market by explicitly modeling competition between nearby stations.
 
 Fuel prices change frequently and often follow coordinated patterns that reflect local strategic behavior rather than pure cost shocks.  
-Traditional forecasting models, both statistical and deep learning, treat each station as an isolated time series and fail to capture these interactions.  
-This project represents gas stations as nodes in a spatial graph, linking them based on geographic proximity so that price reactions can propagate through the network.
+Traditional forecasting models, both statistical and deep learning, treat each station as an isolated time series and fail to capture these interactions. This project represents gas stations as nodes in a spatial graph, linking them based on geographic proximity so that price reactions can propagate through the network.
 
 The data are obtained from the German Market Transparency Unit for Fuels (MTS-K) and observed at 15-minute intervals.  
 The analysis focuses on E5 fuel prices using a geographically restricted subsample from Thuringia.
@@ -96,8 +95,7 @@ docker run -t -i -p 5000:5000 -v "$PWD:/data" osrm/osrm-backend \
   osrm-routed --algorithm mld /data/germany.osrm
 ````
 
-
-
+---
 
 
 ## Reproducibility Guide
