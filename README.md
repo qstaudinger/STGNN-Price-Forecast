@@ -233,24 +233,30 @@ qsub -J 1-8 05_Compute/01_Shellscripts/05_Experiments/02_Architecture/Thuringia_
 qsub -J 1-21 05_Compute/01_Shellscripts/05_Experiments/01_Hyperparameters/Thuringia_E5.sh
 ````
 
-5.2 Evaluation (Notebook)
+### 5.2 Evaluation (Notebook)
 05_01_Experiments_Evaluation_HP.ipynb  
 05_02_Experiments_Evaluation_Architecture.ipynb
-6. Baseline Models
+
+---
+
+## 6. Baseline Models
 
 Baseline model implementations are located in /02_Code and follow the same workflow.
 
-6.1 Hyperparameter Tuning (Shell)
+### 6.1 Hyperparameter Tuning (Shell)
 05_Compute/01_Shellscripts/06_Performance_Comparison/01_Tune_Mode/01_E5/06_11_Performance_Comparison_SARIMA.sh  
 05_Compute/01_Shellscripts/06_Performance_Comparison/01_Tune_Mode/01_E5/06_12_Performance_Comparison_SARIMAX.sh  
 05_Compute/01_Shellscripts/06_Performance_Comparison/01_Tune_Mode/01_E5/06_13_Performance_Comparison_Gradient.sh
-6.2 Select Best Hyperparameters (Notebook)
+
+### 6.2 Select Best Hyperparameters (Notebook)
 06_21_Performance_Comparison_OptModels.ipynb
-6.3 Training (Shell)
+
+### 6.3 Training (Shell)
 
 Example:
 
 05_Compute/01_Shellscripts/06_Performance_Comparison/02_Train_Mode/01_Thuringia/01_E5/06_11_Performance_Comparison_SARIMA.sh
-6.4 Evaluation (Notebook)
+
+### 6.4 Evaluation (Notebook)
 06_22_Performance_Comparison_Results.ipynb  
 06_23_Performance_Comparison_Evaluation.ipynb
