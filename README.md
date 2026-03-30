@@ -160,45 +160,87 @@ Routing script:
 05_Compute/02_Python/01_Preprocessing/route_candidates.py
 2. Graph Construction (Optional)
 02_01_Descriptive_Statistics.ipynb
+
+
+
+## 2. Graph Construction (Optional)
+
+
+02_01_Descriptive_Statistics.ipynb
 02_02_Graph_Construction.ipynb
-3. Window Generation
+
+
+---
+
+## 3. Window Generation
+
+
 03_01_Window_Building_Dist.ipynb
 03_02_Window_Building_Time.ipynb
-4. Model Calibration
 
-All model implementations (including STGNN) are defined in /02_Code and are executed via shell scripts.
 
-4.1 Hyperparameter Tuning (Shell)
+---
+
+## 4. Model Calibration
+
+All model implementations (including STGNN) are defined in `/02_Code` and are executed via shell scripts.
+
+### 4.1 Hyperparameter Tuning (Shell)
+
+
 05_Compute/01_Shellscripts/04_Model_Calibration/01_Tune_Mode/04_01_Model_Calibration_Tune_TH_E5.sh
-4.2 Select Best Hyperparameters (Notebook)
+
+
+---
+
+### 4.2 Select Best Hyperparameters (Notebook)
+
+
 04_02_Model_Calibration_Results.ipynb
+
 
 Aggregates tuning results and stores the selected parameters for training.
 
-4.3 Training (Shell)
+---
+
+### 4.3 Training (Shell)
+
+
 05_Compute/01_Shellscripts/04_Model_Calibration/02_Train_Mode/04_01_Model_Calibration_Train_TH_E5.sh
 05_Compute/01_Shellscripts/04_Model_Calibration/02_Train_Mode/04_01_Model_Calibration_Train_HE_E5.sh
-4.4 Evaluation (Notebook)
+
+
+---
+
+### 4.4 Evaluation (Notebook)
+
+
 04_03_Model_Calibration_Accuracy.ipynb
-5. Experiments
-5.1 Run Experiments (Shell)
+
+
+---
+
+## 5. Experiments
+
+### 5.1 Run Experiments (Shell)
 
 Experiments are executed via job arrays. Each script contains multiple subruns.
 
 Examples:
 
+```bash
 qsub -J 1-8 05_Compute/01_Shellscripts/05_Experiments/02_Architecture/Thuringia_E5.sh
 qsub -J 1-21 05_Compute/01_Shellscripts/05_Experiments/01_Hyperparameters/Thuringia_E5.sh
 5.2 Evaluation (Notebook)
-05_01_Experiments_Evaluation_HP.ipynb
+05_01_Experiments_Evaluation_HP.ipynb  
 05_02_Experiments_Evaluation_Architecture.ipynb
 6. Baseline Models
 
 Baseline model implementations are located in /02_Code and follow the same workflow.
 
 6.1 Hyperparameter Tuning (Shell)
-05_Compute/01_Shellscripts/06_Performance_Comparison/01_Tune_Mode/01_E5/06_11_Performance_Comparison_SARIMA.sh
-05_Compute/01_Shellscripts/06_Performance_Comparison/01_Tune_Mode/01_E5/06_12_Performance_Comparison_SARIMAX.sh
+05_Compute/01_Shellscripts/06_Performance_Comparison/01_Tune_Mode/01_E5/06_11_Performance_Comparison_SARIMA.sh  
+05_Compute/01_Shellscripts/06_Performance_Comparison/01_Tune_Mode/01_E5/06_12_Performance_Comparison_SARIMAX.sh  
 05_Compute/01_Shellscripts/06_Performance_Comparison/01_Tune_Mode/01_E5/06_13_Performance_Comparison_Gradient.sh
 6.2 Select Best Hyperparameters (Notebook)
 06_21_Performance_Comparison_OptModels.ipynb
@@ -208,7 +250,5 @@ Example:
 
 05_Compute/01_Shellscripts/06_Performance_Comparison/02_Train_Mode/01_Thuringia/01_E5/06_11_Performance_Comparison_SARIMA.sh
 6.4 Evaluation (Notebook)
-06_22_Performance_Comparison_Results.ipynb
+06_22_Performance_Comparison_Results.ipynb  
 06_23_Performance_Comparison_Evaluation.ipynb
-
-
