@@ -153,18 +153,16 @@ Note: Requires very high memory (up to ~500 GB RAM).
 
 This step is handled within the notebook:
 
-Export routing inputs for OSRM
-
-Run OSRM and the routing script externally
-
-Import results back into the notebook
-
-The exact procedure is documented inside the notebook.
+- Export routing inputs for OSRM
+- Run OSRM and the routing script externally
+- Import results back into the notebook
+- The exact procedure is documented inside the notebook.
 
 Routing script:
 
+```bash
 05_Compute/02_Python/01_Preprocessing/route_candidates.py
-
+````
 
 ## 2. Graph Construction (Optional)
 
