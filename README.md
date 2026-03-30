@@ -2,17 +2,17 @@
 
 ## Overview
 
-This repository contains the code for a research project on **short-term fuel price forecasting** using **spatio-temporal graph neural networks (STGNNs)**.  
-The goal is to predict **local price movements** in the German retail gasoline market by explicitly modeling **competition between nearby stations**.
+This repository contains the code for a research project on short-term fuel price forecasting using spatio-temporal graph neural networks (**STGNNs***).  
+The goal is to predict local price movements in the German retail gasoline market by explicitly modeling competition between nearby stations.
 
-Fuel prices change frequently and often follow coordinated patterns that reflect **local strategic behavior** rather than pure cost shocks.  
-Traditional forecasting models, both **statistical** and **deep learning**, treat each station as an isolated time series and fail to capture these interactions.  
-This project represents gas stations as nodes in a **spatial graph**, linking them based on geographic proximity so that **price reactions propagate through the network**.
+Fuel prices change frequently and often follow coordinated patterns that reflect local strategic behavior rather than pure cost shocks.  
+Traditional forecasting models, both statistical and deep learning, treat each station as an isolated time series and fail to capture these interactions.  
+This project represents gas stations as nodes in a spatial graph, linking them based on geographic proximity so that price reactions can propagate through the network.
 
-The data are obtained from the **German Market Transparency Unit for Fuels (MTS-K)** and observed at **15-minute intervals**.  
-The analysis focuses on **E5 fuel prices** using a geographically restricted subsample from **Thuringia**.
+The data are obtained from the German Market Transparency Unit for Fuels (MTS-K) and observed at 15-minute intervals.  
+The analysis focuses on E5 fuel prices using a geographically restricted subsample from Thuringia.
 
-In addition, the project includes a series of **experiments** to assess the contribution of individual **model components** and compares the proposed approach against several **baseline models**.
+In addition, the project includes a series of experiments to assess the contribution of individual model components and compares the proposed approach against several baseline models.
 
 ---
 
@@ -26,9 +26,6 @@ The repository follows the full empirical workflow from raw data to final result
 │   ├── 01_OSMR/               OSRM distance and travel time data
 │   ├── 02_Analysis/           Intermediate analysis results
 │   └── 03_Data_Windows/       PyTorch data windows
-│       ├── 01_E5/
-│       ├── 02_E10/
-│       └── 03_Diesel/
 └── 03_Shapefiles/             Geographic shapefiles
 
 02_Notebooks/
@@ -51,12 +48,9 @@ The repository follows the full empirical workflow from raw data to final result
 │   ├── 01_Logs/
 │   ├── 02_Trial_Results/
 │   ├── 03_Outputs/
-│   ├── 04_Models/             Stored Models
-│   └── 05_Metrics/            Aggregated performance metrics
+│   ├── 04_Configurations/     Stored Models
+│   └── 05_Predictions/        Aggregated performance metrics
 └── 02_Tables/                 Final result tables
-
-
-# └── 05_Metrics/                Aggregated performance metrics
 
 05_PBS/
 ├── 01_SH/                     Shell scripts for cluster execution
@@ -86,7 +80,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn torch networkx tqdm yfi
 
 All models are implemented in Python 3.10 and trained on a compute cluster.
 
-The STGNN model is implemented in PyTorch 2.5.1 and trained on a single NVIDIA GeForce GTX 1080 Ti (11 GB VRAM) using 4 CPU cores per run. Baseline models are trained on CPU only using their respective libraries.
+The STGNN model is implemented in PyTorch 2.5.1 and trained on a single NVIDIA GeForce GTX 1080 Ti (11 GB VRAM) using 4 CPU cores per run. Baseline models are trained on CPU only using their respective libraries. Specific configurations can be found in the shell files.
 
 
 ### OSRM Server Setup (Routing)
