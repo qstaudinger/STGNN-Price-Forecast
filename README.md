@@ -191,8 +191,6 @@ All model implementations (including STGNN) are defined in `/02_Code` and are ex
 05_Compute/01_Shellscripts/04_Model_Calibration/01_Tune_Mode/04_01_Model_Calibration_Tune_TH_E5.sh
 
 
----
-
 ### 4.2 Select Best Hyperparameters (Notebook)
 
 
@@ -201,16 +199,12 @@ All model implementations (including STGNN) are defined in `/02_Code` and are ex
 
 Aggregates tuning results and stores the selected parameters for training.
 
----
-
 ### 4.3 Training (Shell)
 
 
 05_Compute/01_Shellscripts/04_Model_Calibration/02_Train_Mode/04_01_Model_Calibration_Train_TH_E5.sh
 05_Compute/01_Shellscripts/04_Model_Calibration/02_Train_Mode/04_01_Model_Calibration_Train_HE_E5.sh
 
-
----
 
 ### 4.4 Evaluation (Notebook)
 
