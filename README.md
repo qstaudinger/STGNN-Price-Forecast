@@ -3,15 +3,16 @@
 ## Overview
 
 This repository contains the code for a research project on **short-term fuel price forecasting** using **spatio-temporal graph neural networks (STGNNs)**.  
-The goal is to predict local price movements in the German retail gasoline market by explicitly modeling **competition between nearby stations**.
+The goal is to predict **local price movements** in the German retail gasoline market by explicitly modeling **competition between nearby stations**.
 
-Fuel prices change frequently and in coordinated patterns that reflect local strategic behavior rather than pure cost shocks.  
-Traditional forecasting models, both statistical and deep learning, treat each station as an isolated time series and miss these interactions.  
-This project represents gas stations as **nodes in a spatial graph**, linking them based on proximity so that price reactions can propagate through the network.
+Fuel prices change frequently and often follow coordinated patterns that reflect **local strategic behavior** rather than pure cost shocks.  
+Traditional forecasting models, both **statistical** and **deep learning**, treat each station as an isolated time series and fail to capture these interactions.  
+This project represents gas stations as nodes in a **spatial graph**, linking them based on geographic proximity so that **price reactions propagate through the network**.
 
-The data come from the **German Market Transparency Unit for Fuels (MTS-K)**, observed at 15-minute intervals.  
-Highway stations and night hours are excluded to avoid distortions.  
-The analysis focuses on **E5, E10, and diesel**, using a geographically restricted subsample from **Thuringia**.
+The data are obtained from the **German Market Transparency Unit for Fuels (MTS-K)** and observed at **15-minute intervals**.  
+The analysis focuses on **E5 fuel prices** using a geographically restricted subsample from **Thuringia**.
+
+In addition, the project includes a series of **experiments** to assess the contribution of individual **model components** and compares the proposed approach against several **baseline models**.
 
 ---
 
